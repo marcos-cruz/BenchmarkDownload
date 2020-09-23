@@ -73,7 +73,7 @@ The download is done asynchronously, that is, the contents are downloaded almost
 | 7 | 5873 | 1962744 | 5959 |
 |   | **AVERAGE TOTAL** | **1964607** | **6055** |
 
-# Case 4 - - Download Asynchronously Parallel
+# Case 4 - Download Asynchronously Parallel
 
 The download is done in an asynchronous and parallel way, that is, the contents are downloaded almost simultaneously. The comparative table shows the processing behavior:
 
