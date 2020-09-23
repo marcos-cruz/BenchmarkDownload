@@ -1,0 +1,24 @@
+﻿<Window x:Class="Bigai.BenchmarkDownload.Presentation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bigai.BenchmarkDownload.Presentation"
+        mc:Ignorable="d"
+        Title="Benchmark Download" Height="510" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="63*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="NormalExecution" Content="Normal Sync Execution" HorizontalAlignment="Left" Margin="33,20,0,0" VerticalAlignment="Top" Width="300" Height="30" Grid.Column="1" Grid.ColumnSpan="2" Click="NormalExecution_Click"/>
+        <Button Name="ParallelSyncExecution" Content="Parallel Sync Execution" HorizontalAlignment="Left" Margin="131,20,0,0" VerticalAlignment="Top" Width="300" Height="30" Grid.Column="2" Click="ParallelSyncExecution_Click"/>
+        <Button Name="AsyncExecution" Content="Async Execution" HorizontalAlignment="Left" Margin="33,70,0,0" VerticalAlignment="Top" Width="653" Height="30" Grid.Column="1" Grid.ColumnSpan="2" Click="AsyncExecution_Click"/>
+        <Button Name="ParalelExecutionAsync" Content="Async Parallel Execution" HorizontalAlignment="Left" Margin="33,119,0,0" VerticalAlignment="Top" Width="300" Height="30" Grid.Column="1" Grid.ColumnSpan="2" Click="ParalelExecutionAsync_Click"/>
+        <Button Name="ParalelExecutionAsyncProgessBar" Content="Async Parallel Execution Progress Bar" HorizontalAlignment="Left" Margin="131,119,0,0" VerticalAlignment="Top" Width="300" Height="30" Grid.Column="2" Click="ParalelExecutionAsyncProgessBar_Click"/>
+        <Button Name="CancelExecution" Content="Cancel Async Execution" HorizontalAlignment="Left" Margin="33,169,0,0" VerticalAlignment="Top" Width="653" Height="30" Grid.Column="1" Grid.ColumnSpan="2" IsEnabled="False" Click="CancelExecution_Click"/>
+        <TextBox Name="TextResult" HorizontalAlignment="Left" Height="Auto" Margin="33,255,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="653" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <ProgressBar Name="DashboardProgess" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Left" Height="12" Margin="33,218,0,0" VerticalAlignment="Top" Width="653"/>
+    </Grid>
+</Window>
