@@ -41,7 +41,7 @@ The download is done synchronously, that is, it downloads one content, then the 
 | 5 | 5658                      | 1986383 | 5757 |
 | 6 | 6335                      | 1993106 | 5873 |
 | 7 | 5713                      | 1989936 | 5846 |
-|   | A V E R A G E   T O T A L | 1989200 | 5761 |
+|   | **AVERAGE TOTAL** | **1989200** | **5761** |
 
 # Case 2 - Download Synchronously Parallel
 
@@ -56,7 +56,7 @@ The download is done synchronously and in parallel, that is, each download is a 
 | 5 | 2215 | 1987888 | 2314 |
 | 6 | 1611 | 1961855 | 2174 |
 | 7 | 2495 | 1989507 | 2227 |
-|  |  | 1986384,667 | 2820 |
+|   | **AVERAGE TOTAL** | **1986384** | **2820** |
 
 # Case 3 - Download Asynchronously
 
@@ -71,7 +71,7 @@ The download is done asynchronously, that is, the contents are downloaded almost
 | 5 | 5871 | 1964627 | 6025 |
 | 6 | 5785 | 1968559 | 5977 |
 | 7 | 5873 | 1962744 | 5959 |
-| |  | 1964607,333 | 6055 |
+|   | **AVERAGE TOTAL** | **1964607** | **6055** |
 
 # Case 4 - - Download Asynchronously Parallel
 
@@ -86,4 +86,4 @@ The download is done in an asynchronous and parallel way, that is, the contents 
 | 5 | 1549 | 1994188 | 2154 |
 | 6 | 2325 | 1996087 | 2188 |
 | 7 | 2447 | 1989113 | 2231 |
-|  |  | 1991788,333 | 2196 |
+|   | **AVERAGE TOTAL** | **1991788** | **2196** |
